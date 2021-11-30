@@ -1,6 +1,7 @@
 //All we need to do is maintain counters of all avaliable numbers
 // Then we can sort, because the smallest and biggest numbers has priority. Eg: in [6,....,7,....,8,....,9] 6 can only be used with 7 and 9 can only be used with 8; when "middle" values can be used by both upper and lower bounds. To skip that consideration we just move from the beginning by sorted array. Then all smallest will be resolved first, and by reaching the biggest the only possible option will be left.
-//Lastly, we will iterate over an array, make a group and decrease counters. You will see if it is no possible to make a group.
+//Lastly, we will iterate over an array, make a group and decrease counters. 
+//We need to see if it is no possible to make a group.
 
 //time complexity: O(nlogn)
 //space complexity: O(n)
